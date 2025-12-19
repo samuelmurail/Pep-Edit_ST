@@ -1,0 +1,14 @@
+name: pep-edit-st
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - rdkit
+  - openmm>=8.3.1
+  - numpy
+  - pandas
+  - matplotlib
+  - pip
+  - pip:
+    - git+https://github.com/samuelmurail/SST2.git
