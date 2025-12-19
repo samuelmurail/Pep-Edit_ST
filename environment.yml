@@ -2,12 +2,16 @@ name: pep-edit-st
 channels:
   - conda-forge
   - nodefaults
+  - nvidia
 dependencies:
   - python
   - rdkit
   - openmm
-  - openff-toolkit
+  - cuda-toolkit
+  - openmmforcefields
+  - openff-toolkit <= 13.0.0
   - openff-nagl
+  - pdbfixer
   - numpy
   - pandas
   - matplotlib
