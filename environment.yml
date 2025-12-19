@@ -1,14 +1,22 @@
 name: pep-edit-st
 channels:
   - conda-forge
-  - defaults
+  - nodefaults
 dependencies:
-  - python>=3.9
+  - python
   - rdkit
-  - openmm>=8.3.1
+  - openmm
+  - openff-toolkit
+  - openff-nagl
   - numpy
   - pandas
   - matplotlib
+  - seaborn
+  - MDAnalysis
+  - scipy
+  - cmcrameri
+  - cython
   - pip
   - pip:
+    - pdb_numpy
     - git+https://github.com/samuelmurail/SST2.git
